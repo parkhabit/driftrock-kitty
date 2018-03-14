@@ -1,0 +1,26 @@
+{
+  "name": "driftrock-kitty",
+  "version": "1.0.0",
+  "description": "Tech test for Driftrock using their API",
+  "main": "app.js",
+  "dependencies": {
+    "node-fetch": "^2.1.1",
+    "supertest": "^3.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkhabit/driftrock-kitty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkhabit/driftrock-kitty/issues"
+  },
+  "homepage": "https://github.com/parkhabit/driftrock-kitty#readme"
+}
