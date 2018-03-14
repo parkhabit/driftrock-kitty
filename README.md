@@ -11,12 +11,16 @@ The script (app.js) is to be opened in the command line and given one argument t
 The answer should be output to the Command Line.
 
 ## How to run:
-`git clone https://github.com/parkhabit/driftrock-kitty.git`
-`npm i`
+```
+git clone https://github.com/parkhabit/driftrock-kitty.git
+npm i
+```
 Can run the following commands: 
-`node app.js most_sold`
-`node app.js total_spend example@email.com`
-`node app.js most_loyal`
+```
+node app.js most_sold
+node app.js total_spend example@email.com
+node app.js most_loyal
+```
 
 ## Testing:
 Run `npm test` to run the test script. 
